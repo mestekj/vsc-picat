@@ -123,7 +123,7 @@
         "@types/mocha": "^2.2.43",
         "@types/node": "^8.0.28",
         "typescript": "^2.5.2",
-        "vscode": "^1.1.5"
+        "vscode": "^1.1.36"
     },
     "dependencies": {
         "child-process-promise": "^2.2.1",
