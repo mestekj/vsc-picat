@@ -78,7 +78,7 @@ export default class PicatLinter implements CodeActionProvider {
         }
       : undefined;
 
-    let args: string[] = ["-g", `cl('${doc.fileName}')`];
+    let args: string[] = ["-g", `cl('${doc.fileName.replace(/\\/g, "\\\\")}')`];
     let goals: string = "";
 
     let child = spawn(this._executable, args, options)

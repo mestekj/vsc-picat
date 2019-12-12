@@ -55,7 +55,7 @@ export default class PicatTerminal {
   public static runDocument() {
     PicatTerminal._document = window.activeTextEditor.document;
     PicatTerminal.createPicatTerm();
-    let goals = "cl('" + PicatTerminal._document.fileName + "'),main.";
+    let goals = "cl('" + PicatTerminal._document.fileName.replace(/\\/g, "\\\\") + "'),main.";
     if (PicatTerminal._document.isDirty) {
       PicatTerminal._document.save().then(_ => {
         PicatTerminal.sendString(goals);
