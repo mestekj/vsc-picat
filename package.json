@@ -2,8 +2,8 @@
     "name": "vsc-picat",
     "displayName": "VSC-Picat",
     "description": "Support for Picat language",
-    "version": "0.1.14",
-    "publisher": "arthurwang",
+    "version": "0.0.1",
+    "publisher": "jmestek",
     "icon": "images/picat.ico",
     "license": "MIT",
     "engines": {
@@ -20,16 +20,16 @@
         "snippet"
     ],
     "author": {
-        "name": "Arthur Wang",
-        "email": "rthrwang@gmail.com"
+        "name": "Jakub Mestek",
+        "email": "jakub.mestek@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/arthwang/vsc-picat.git"
+        "url": "https://github.com/mestekj/vsc-picat.git"
     },
     "bugs": {
-        "url": "https://github.com/arthwang/vsc-picat/issues",
-        "email": "rthrwang@gmail.com"
+        "url": "https://github.com/mestekj/vsc-picat/issues",
+        "email": "jakub.mestek@gmail.com"
     },
     "main": "./out/src/extension",
     "activationEvents": [
